@@ -16,9 +16,15 @@ efosa[6].innerHTML = '<strong> Index Of a str that does not exist : </strong>' +
 efosa[7].innerHTML = '<strong> uppercase: </strong>' + letters.toUpperCase()
 efosa[8].innerHTML = '<strong> lowercase: </strong>' + letters.toLowerCase()
 efosa[9].innerHTML = '<strong> Find character at a particular index : </strong>' + letters.charAt(10)
-// efosa[10].innerHTML = '<strong> Replace \'jump\' with \'walk\': </strong>' + letters.replace('jump', 'walk')
-efosa[10].innerHTML = '<strong> Replace \'o\' with \'0\': </strong>' + letters.replaceAll('o', '0')
-
+efosa[10].innerHTML = '<strong> Replace \'jump\' with \'walk\': </strong>' + letters.replace('jump', 'walk')
+efosa[11].innerHTML = '<strong> Replace \'o\' with \'0\': </strong>' + letters.replaceAll('o', '0')
+efosa[12].innerHTML = '<strong> Coverts a str to an array : </strong>' + letters.split(' ')
+efosa[13].innerHTML = '<strong> Cut a Part of a str </strong>' +letters.slice (letters.lastIndexOf('the'))
+efosa[14].innerHTML = '<strong> Cut all str </strong>' +letters.slice()
+efosa[15].innerHTML = '<strong> Add array Names </strong>' + ' '.concat('franc')
+efosa[16].innerHTML = '<strong> add a name </strong>' + names.filter(name => name.endswith('p'))
+efosa[18].innerHTML = '<strong> names that ends </strong>' + names.filter(name => name.endswit ('e') )
+efosa[19].innerHTML = '<strong> names that includes with \'r\':</strong>' +names.filter(name => name.includes ('r'))
 
 
 
